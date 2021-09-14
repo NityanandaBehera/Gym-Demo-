@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitya Fitness</title>
+</head>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+<a href="https://www.google.com" target="_blank">Google</a>
+<a href="#" target="_blank">nothing</a>
+<link rel="stylesheet" href="css/style.css">
+<style>
+
+    /* css Reset */
+    body {
+        font-family: 'Baloo Tammudu 2', cursive;
+        color: rgba(228, 220, 220, 0.945);
+        margin: 0px;
+        padding: 0px;
+        background-image: url("lifo.jpg");
+        min-height: 800px;
+
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 5px;
+        top: 21px;
+
+    }
+
+    .left img {
+        width: 60px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+        text-indent: 0px;
+        line-height: 10px;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 32px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 22px;
+        display: block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 23px 12px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(170, 135, 135);
+        text-decoration: underline;
+        padding: 23px 12px;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Tammudu 2', cursive;
+        margin: 0px 9px;
+        color: beige;
+        background-color: black;
+        padding: 3px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: brown;
+    }
+
+    .container {
+        border: 2px solid rgb(128, 68, 0);
+        margin: 206px 800px;
+        padding: 76px;
+        width: 33%;
+        border-radius: 28px;
+        border-color: white;
+
+    }
+
+    .from-group input {
+        font-family: 'Baloo Tammudu 2', cursive;
+        text-align: center;
+        display: block;
+        width: 425px;
+        padding: 1px;
+        font-size: 27;
+        border-radius: 8px;
+        margin: 11px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 100px;
+        margin: 6px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="images.png" alt="nothing">
+            <div>Nitya Fitness</div>
+        </div>
+
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us😄</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!--right box for buttons-->
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in odisha now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="phone no">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="adress">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
